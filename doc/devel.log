@@ -23,3 +23,7 @@ Here are the sub skills I'm identifying:
 This is basically the beginning of that process.  I'm going to try to use Kicad
 to create up to date schematics of what I have on the breadboard as I go and
 then eventually that should become what is made by the board house.
+
+The first step is to draw up what I've got on the board now and then debug it
+and figure out why I'm seeing gibberish on the monitored outputs.
+
