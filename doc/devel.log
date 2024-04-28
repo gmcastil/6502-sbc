@@ -1,0 +1,25 @@
+28 April 2024
+-------------
+My primary goal is to develop a 65C02 based single
+board computer with the following functionality:
+- Capability to instrument important signals with an Arduino using simple pin
+  headers.
+- LED, seven-segment display, an LCD display
+- UART interface
+- Very simple address decode logic, particularly for the Mark Zero
+- External 5VDC
+
+Here are the sub skills I'm identifying:
+- Circuit design of the board
+- Build protoype on breadboard
+- Programming and software development
+- Kicad schematic capture
+- Kicad layout and board design
+- Kicad BOM and board file generation
+- Work with board house and Mouser to obtain components and boards
+- Assembly of board
+- Debug of assembled board
+
+This is basically the beginning of that process.  I'm going to try to use Kicad
+to create up to date schematics of what I have on the breadboard as I go and
+then eventually that should become what is made by the board house.
