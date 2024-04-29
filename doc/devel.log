@@ -27,3 +27,15 @@ then eventually that should become what is made by the board house.
 The first step is to draw up what I've got on the board now and then debug it
 and figure out why I'm seeing gibberish on the monitored outputs.
 
+29 April 2024
+-------------
+I discovered that if I use GNU screen and just clear it, I can more or less use
+my serial port monitor as a logic analyzer.  That's nice.
+
+But for reasons I don't quite understand yet, I cannot seem to get the data
+lines to get instrumented as 0xEA.  I'm starting to think I might have the pin
+numbering backwards or something.  So I might just use the same pin numbers and
+mappings and try to just poll some constant values on those GPIO pins.  Make
+sure that I can actually read the values.  Yeah, that's actually the simplest
+thing to do - make sure I can actually read what I think I'm reading.
+
