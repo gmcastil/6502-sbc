@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "6502-sbc")(type "KiCad")(uri "${KIPRJMOD}/SBC-prototype.pretty")(options "")(descr "6502 single board computer footprints"))
+)
