@@ -39,3 +39,9 @@ mappings and try to just poll some constant values on those GPIO pins.  Make
 sure that I can actually read the values.  Yeah, that's actually the simplest
 thing to do - make sure I can actually read what I think I'm reading.
 
+4 May 2024
+----------
+Let's talk address decoding.  For the first iteration of the baord, I want
+something simple. So, 16KB of RAM, 32KB of ROM, and then put IO in between
+
+The address map should look something like
