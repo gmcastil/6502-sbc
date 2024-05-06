@@ -385,6 +385,18 @@
     [
       "1c8fb460-190a-4823-a6aa-9b1d397d6158",
       "Root"
+    ],
+    [
+      "88544e40-0c25-4bb4-a1e2-94b60160133d",
+      "Power"
+    ],
+    [
+      "11b89fcc-67ce-4c2b-820d-bfcafe1ea5b4",
+      "Clock and Reset"
+    ],
+    [
+      "e7766c23-8958-410d-ac08-5e04e4de3c1a",
+      "Address Decode"
     ]
   ],
   "text_variables": {}
