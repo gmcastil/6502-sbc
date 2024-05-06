@@ -10,6 +10,44 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 95.25 105.41)
+		(size 26.67 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0456201c-b4b8-4a85-8590-2dcf9ac729a4")
+		(property "Sheetname" "65C02 CPU"
+			(at 95.25 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 95.25 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SBC-prototype"
+				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 49.53)
 		(size 36.83 27.94)
 		(fields_autoplaced yes)

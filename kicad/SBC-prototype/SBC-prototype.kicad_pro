@@ -397,6 +397,10 @@
     [
       "e7766c23-8958-410d-ac08-5e04e4de3c1a",
       "Address Decode"
+    ],
+    [
+      "0456201c-b4b8-4a85-8590-2dcf9ac729a4",
+      "65C02 CPU"
     ]
   ],
   "text_variables": {}
