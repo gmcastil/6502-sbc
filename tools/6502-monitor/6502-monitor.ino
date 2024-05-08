@@ -34,6 +34,14 @@ void setup()
 }
 
 /*
+ * Interrupt service routine for reset pin
+ */
+void rst_isr()
+{
+
+}
+
+/*
  * Interrupt service routine for rising edge of clock pin
  */
 void clock_isr()
