@@ -6,6 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "65C02 Single Board Computer")
+		(rev "Mk. 0")
 	)
 	(lib_symbols
 		(symbol "6502-sbc:DS1813R-10+T&R"

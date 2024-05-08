@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "65C02 Single Board Computer")
-		(rev "-")
+		(rev "Mk. 0")
 	)
 	(lib_symbols)
 	(sheet
@@ -81,6 +81,44 @@
 			(project "SBC-prototype"
 				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 105.41)
+		(size 24.13 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87997ef9-d955-4be7-8589-e8559e8df395")
+		(property "Sheetname" "SRAM and EEPROM"
+			(at 153.67 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ram_eeprom.kicad_sch"
+			(at 153.67 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SBC-prototype"
+				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158"
+					(page "6")
 				)
 			)
 		)

@@ -401,6 +401,10 @@
     [
       "0456201c-b4b8-4a85-8590-2dcf9ac729a4",
       "65C02 CPU"
+    ],
+    [
+      "87997ef9-d955-4be7-8589-e8559e8df395",
+      "SRAM and EEPROM"
     ]
   ],
   "text_variables": {}
