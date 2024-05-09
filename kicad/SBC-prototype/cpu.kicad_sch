@@ -1199,6 +1199,12 @@
 		(uuid "78870254-0e66-430f-b158-19d4ef017e2a")
 	)
 	(junction
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ec503b-6ed0-4133-92c6-37afae6ceba5")
+	)
+	(junction
 		(at 72.39 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1689,6 +1695,16 @@
 			(type default)
 		)
 		(uuid "5b13bf09-2652-4276-b5e7-95d632e73c35")
+	)
+	(wire
+		(pts
+			(xy 54.61 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7027e4-9053-45e9-8b2e-c87879e7550d")
 	)
 	(bus
 		(pts
@@ -2279,6 +2295,18 @@
 			(justify left)
 		)
 		(uuid "72ba03fe-d53a-49f1-8d4f-d1854b868a31")
+	)
+	(hierarchical_label "VIA1_IRQB"
+		(shape input)
+		(at 54.61 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed0e20dd-10d5-4375-a5e5-8fb5745bcbd9")
 	)
 	(symbol
 		(lib_id "6502-sbc:W65C02S6TPG-14")
