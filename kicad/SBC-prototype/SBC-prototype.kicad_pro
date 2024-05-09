@@ -405,6 +405,10 @@
     [
       "87997ef9-d955-4be7-8589-e8559e8df395",
       "SRAM and EEPROM"
+    ],
+    [
+      "e390b835-9d2f-4f68-9f14-c5f9632ec523",
+      "VIA 1"
     ]
   ],
   "text_variables": {}

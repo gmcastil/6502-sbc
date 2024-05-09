@@ -2294,7 +2294,7 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 140.97) (xy 234.95 140.97)
+			(xy 222.25 140.97) (xy 247.65 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2441,16 +2441,6 @@
 			(type default)
 		)
 		(uuid "723b762f-e21a-4973-b4c4-660f6a9a6d21")
-	)
-	(bus
-		(pts
-			(xy 234.95 140.97) (xy 234.95 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7297c91e-4073-4031-ab1a-d459f8c11fb0")
 	)
 	(bus
 		(pts
@@ -2721,16 +2711,6 @@
 			(type default)
 		)
 		(uuid "a9b57859-d271-4eb6-8d49-6f0fe89576f0")
-	)
-	(bus
-		(pts
-			(xy 234.95 90.17) (xy 247.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e33d77-06ed-47b4-b299-55fe01af81c9")
 	)
 	(bus
 		(pts
@@ -3094,7 +3074,7 @@
 	)
 	(hierarchical_label "DATA"
 		(shape bidirectional)
-		(at 247.65 90.17 0)
+		(at 247.65 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -162,6 +162,44 @@
 		)
 	)
 	(sheet
+		(at 91.44 153.67)
+		(size 41.91 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e390b835-9d2f-4f68-9f14-c5f9632ec523")
+		(property "Sheetname" "VIA 1"
+			(at 91.44 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "via_1.kicad_sch"
+			(at 91.44 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SBC-prototype"
+				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 153.67 49.53)
 		(size 31.75 27.94)
 		(fields_autoplaced yes)
