@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "65C02 Single Board Computer")
-		(rev "Mk. 0")
+		(rev "Proto")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC00"
@@ -1460,28 +1460,6 @@
 		)
 		(uuid "676c2650-6991-4428-b434-e979fd77a08c")
 	)
-	(global_label "CLK"
-		(shape input)
-		(at 81.28 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "036c9c77-f92c-490d-b20d-0b0a6a580692")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7267 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "ROM_OEB"
 		(shape output)
 		(at 171.45 107.95 0)
@@ -1529,6 +1507,18 @@
 			(justify left)
 		)
 		(uuid "47031e6c-b9db-4359-b8af-b463b86256d5")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 81.28 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b109c13-5a4d-4f47-a128-31b97257338d")
 	)
 	(hierarchical_label "ADDR"
 		(shape input)

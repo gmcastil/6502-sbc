@@ -6,6 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "65C02 Single Board Computer")
+		(rev "Proto")
 	)
 	(lib_symbols
 		(symbol "6502-sbc:W65C22S6TPG-14"
@@ -1545,50 +1546,6 @@
 		)
 		(uuid "fb1ae7b7-def3-48d8-bdd7-0e051b12201d")
 	)
-	(global_label "~{RST}"
-		(shape input)
-		(at 88.9 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f725f47a-9b48-46a9-9d40-92ff459d45f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4677 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK"
-		(shape input)
-		(at 88.9 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f9454347-8fa8-427e-a786-712338b00fef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.3467 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "DATA"
 		(shape bidirectional)
 		(at 88.9 106.68 180)
@@ -1624,6 +1581,30 @@
 			(justify right)
 		)
 		(uuid "5758f10d-5c61-4001-b9d0-6935add4ab4d")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 88.9 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c6a7ea2-ca41-4837-9323-66fce36790e8")
+	)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 88.9 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e3df543-eb38-40fa-bd66-b98e1ad76724")
 	)
 	(hierarchical_label "ADDR"
 		(shape input)
@@ -1942,10 +1923,6 @@
 		(instances
 			(project "SBC-prototype"
 				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158/e390b835-9d2f-4f68-9f14-c5f9632ec523"
-					(reference "IC5")
-					(unit 1)
-				)
-				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158/0456201c-b4b8-4a85-8590-2dcf9ac729a4"
 					(reference "IC5")
 					(unit 1)
 				)

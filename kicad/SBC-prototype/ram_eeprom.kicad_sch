@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "65C02 Single Board Computer")
-		(rev "Mk. 0")
+		(rev "Proto")
 	)
 	(lib_symbols
 		(symbol "6502-sbc:AS6C62256-55PCN"

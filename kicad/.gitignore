@@ -1,2 +1,5 @@
 # Ignore all Kicad archives
 *.zip
+# Don't revision control output files from plotting
+SBC-prototype/report.txt
+

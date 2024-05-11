@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "65C02 Single Board Computer")
-		(rev "Mk. 0")
+		(rev "Proto")
 	)
 	(lib_symbols
 		(symbol "6502-sbc:DS1813R-10+T&R"
@@ -897,29 +897,7 @@
 		)
 		(uuid "d6762176-afd1-4b07-bd36-0e0e164aafdf")
 	)
-	(global_label "~{RST}"
-		(shape output)
-		(at 168.91 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23814f1d-0013-44f1-94c4-3e0240c0f4fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3423 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK"
+	(hierarchical_label "CLK"
 		(shape output)
 		(at 168.91 78.74 0)
 		(fields_autoplaced yes)
@@ -929,17 +907,19 @@
 			)
 			(justify left)
 		)
-		(uuid "b4d8ffb8-e7d0-4d3c-bcd3-4f46b3571ce2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4633 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "71e26197-37fc-4ca4-9960-d429638a0cbb")
+	)
+	(hierarchical_label "~{RST}"
+		(shape output)
+		(at 168.91 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "c0a97d93-b1e7-42e9-9c4e-ee966eec39ca")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
