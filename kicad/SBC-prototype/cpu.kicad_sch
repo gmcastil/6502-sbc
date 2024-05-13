@@ -1193,18 +1193,6 @@
 		(uuid "3bd6ce57-81f9-4509-acd5-10af24ad5d6f")
 	)
 	(junction
-		(at 106.68 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78870254-0e66-430f-b158-19d4ef017e2a")
-	)
-	(junction
-		(at 115.57 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80ec503b-6ed0-4133-92c6-37afae6ceba5")
-	)
-	(junction
 		(at 72.39 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1458,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 133.35 93.98)
+			(xy 54.61 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1696,16 +1684,6 @@
 		)
 		(uuid "5b13bf09-2652-4276-b5e7-95d632e73c35")
 	)
-	(wire
-		(pts
-			(xy 54.61 93.98) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d7027e4-9053-45e9-8b2e-c87879e7550d")
-	)
 	(bus
 		(pts
 			(xy 196.85 66.04) (xy 196.85 68.58)
@@ -1906,16 +1884,6 @@
 		)
 		(uuid "985ef4bf-ebc1-4d94-a2dc-8403cc391828")
 	)
-	(wire
-		(pts
-			(xy 115.57 53.34) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9e55c0-3f02-4895-b3b8-0e791e0a5f79")
-	)
 	(bus
 		(pts
 			(xy 191.77 115.57) (xy 191.77 118.11)
@@ -2025,16 +1993,6 @@
 			(type default)
 		)
 		(uuid "bd01c116-4b5d-4e80-ab70-6745f3bdaa86")
-	)
-	(wire
-		(pts
-			(xy 115.57 38.1) (xy 115.57 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17869f9-2706-43ad-a012-67a1ef5e2310")
 	)
 	(bus
 		(pts
@@ -2205,16 +2163,6 @@
 			(type default)
 		)
 		(uuid "fa916b1e-a097-4554-99ff-1ea552f562d5")
-	)
-	(wire
-		(pts
-			(xy 106.68 38.1) (xy 115.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcded71e-35df-480d-b73f-999f7e98bf16")
 	)
 	(hierarchical_label "ADDR"
 		(shape output)
@@ -2859,76 +2807,6 @@
 			(project "SBC-prototype"
 				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158/0456201c-b4b8-4a85-8590-2dcf9ac729a4"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec3f5757-acb1-444b-9f8a-d52235d3cfa0")
-		(property "Reference" "R4"
-			(at 118.11 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k3"
-			(at 118.11 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.792 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4179668-4d4d-435c-973f-d3bd70c039df")
-		)
-		(pin "2"
-			(uuid "dbee3cb2-0567-47b0-bf72-1570ba2b060c")
-		)
-		(instances
-			(project "SBC-prototype"
-				(path "/1c8fb460-190a-4823-a6aa-9b1d397d6158/0456201c-b4b8-4a85-8590-2dcf9ac729a4"
-					(reference "R4")
 					(unit 1)
 				)
 			)
