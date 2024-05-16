@@ -57,7 +57,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 118.11) (xy 137.16 118.11)
+			(xy 163.83 72.39) (xy 163.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d4b0a7-b1a8-4985-9d3b-2a48891fc01c")
+	)
+	(wire
+		(pts
+			(xy 85.09 118.11) (xy 182.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 161.29) (xy 165.1 161.29)
+			(xy 73.66 152.4) (xy 214.63 152.4)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +187,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 161.29) (xy 73.66 97.79)
+			(xy 73.66 152.4) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -207,13 +217,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 139.7) (xy 165.1 161.29)
+			(xy 115.57 139.7) (xy 182.88 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6310f2bf-9746-4f62-8ce0-d99875bd52e4")
+		(uuid "61f92197-e75d-49fe-929d-c5597db72384")
 	)
 	(wire
 		(pts
@@ -237,6 +247,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 139.7) (xy 214.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755403fb-ab14-439d-97bc-b9429adffe0a")
+	)
+	(wire
+		(pts
 			(xy 151.13 64.77) (xy 182.88 64.77)
 		)
 		(stroke
@@ -257,13 +277,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 81.28 121.92)
+			(xy 182.88 121.92) (xy 81.28 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b7a50a8-1dc0-4a8c-80d6-9120ba03ec60")
+	)
+	(wire
+		(pts
+			(xy 214.63 139.7) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3ba700-9e5c-49d1-b6c8-33cb0d3c53c6")
 	)
 	(bus
 		(pts
@@ -357,23 +387,13 @@
 	)
 	(bus
 		(pts
-			(xy 125.73 132.08) (xy 137.16 132.08)
+			(xy 125.73 132.08) (xy 182.88 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c76cfe2c-1982-4bca-a9b9-313c71a88ea9")
-	)
-	(wire
-		(pts
-			(xy 160.02 139.7) (xy 165.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccad8a38-8477-4a2c-91b8-8ba4745ce589")
 	)
 	(wire
 		(pts
@@ -384,16 +404,6 @@
 			(type default)
 		)
 		(uuid "ceefb901-28d7-4968-be27-aad1611be3cd")
-	)
-	(wire
-		(pts
-			(xy 115.57 139.7) (xy 137.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94e91ed-6d4a-44c8-958e-736cf8010204")
 	)
 	(wire
 		(pts
@@ -427,6 +437,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 127) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75fbac8-f73c-4b2d-a0f3-34fb80305550")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bcb1ba-993e-42e5-be75-89992d705995")
+	)
+	(wire
+		(pts
 			(xy 73.66 97.79) (xy 90.17 97.79)
 		)
 		(stroke
@@ -437,7 +467,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 135.89) (xy 137.16 135.89)
+			(xy 120.65 135.89) (xy 182.88 135.89)
 		)
 		(stroke
 			(width 0)
@@ -474,26 +504,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "DATA" bidirectional
-			(at 111.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d2fefe03-7fa0-46c5-9ffd-3893bf524b8a")
-		)
-		(pin "ADDR" output
-			(at 111.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a5ba536d-b8d9-43a9-abba-14abe61b2914")
 		)
 		(pin "RWB" output
 			(at 111.76 90.17 0)
@@ -534,6 +544,26 @@
 				(justify left)
 			)
 			(uuid "e425b00a-7eb3-4c55-9c6c-38586f5246ea")
+		)
+		(pin "A[0..15]" output
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4fe57d8b-5df7-44b2-bc71-b86eab28edc7")
+		)
+		(pin "D[0..7]" bidirectional
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b911a80b-52dd-440f-b59b-61e3ebb36544")
 		)
 		(instances
 			(project "SBC-prototype"
@@ -631,16 +661,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DATA" bidirectional
-			(at 182.88 71.12 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "41bf1f76-d563-46b8-ba77-e8bf3508a331")
-		)
 		(pin "RAM_CSB" input
 			(at 182.88 64.77 180)
 			(effects
@@ -671,16 +691,6 @@
 			)
 			(uuid "152b5868-d1b4-4a65-93ce-7b7dc95f5f81")
 		)
-		(pin "ADDR" input
-			(at 182.88 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0f72004c-c66b-4857-b510-934c4f5aec97")
-		)
 		(pin "ROM_CEB" input
 			(at 182.88 53.34 180)
 			(effects
@@ -700,6 +710,26 @@
 				(justify left)
 			)
 			(uuid "e3408434-28db-4c89-8503-d9bb3cc523c0")
+		)
+		(pin "A[0..15]" input
+			(at 182.88 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a69af98e-68bc-4873-b2c4-f23aac3d7615")
+		)
+		(pin "D[0..7]" output
+			(at 182.88 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "16052c1c-4731-447f-bffd-b0629ec59cb0")
 		)
 		(instances
 			(project "SBC-prototype"
@@ -748,7 +778,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 113.03)
+		(at 182.88 113.03)
 		(size 22.86 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -760,7 +790,7 @@
 		)
 		(uuid "e390b835-9d2f-4f68-9f14-c5f9632ec523")
 		(property "Sheetname" "VIA 1"
-			(at 137.16 112.3184 0)
+			(at 182.88 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +799,7 @@
 			)
 		)
 		(property "Sheetfile" "via_1.kicad_sch"
-			(at 137.16 145.3646 0)
+			(at 182.88 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +808,7 @@
 			)
 		)
 		(pin "VIA1_IRQB" output
-			(at 160.02 139.7 0)
+			(at 205.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,18 +817,8 @@
 			)
 			(uuid "d5d07ef6-e2f3-4b47-ac62-e6f16a25d98d")
 		)
-		(pin "DATA" bidirectional
-			(at 137.16 132.08 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2460846a-ecba-41f8-90b4-e08c64663eec")
-		)
 		(pin "IO_CSB" input
-			(at 137.16 127 180)
+			(at 182.88 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +828,7 @@
 			(uuid "b547faab-568d-4761-9cb0-051e2eb91192")
 		)
 		(pin "RWB" input
-			(at 137.16 139.7 180)
+			(at 182.88 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,18 +837,8 @@
 			)
 			(uuid "6554589a-ed0d-4e3f-bc08-95aa27b07ad8")
 		)
-		(pin "ADDR" input
-			(at 137.16 135.89 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ee5bc7a4-4c19-4f60-be98-8c6802bf3be8")
-		)
 		(pin "CLK" input
-			(at 137.16 118.11 180)
+			(at 182.88 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +848,7 @@
 			(uuid "1f83263d-ff71-4d3d-967a-31c085a17afc")
 		)
 		(pin "~{RST}" input
-			(at 137.16 121.92 180)
+			(at 182.88 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,6 +856,26 @@
 				(justify left)
 			)
 			(uuid "89bcd5a1-f8b4-4f7f-948d-38047fb67c94")
+		)
+		(pin "A[0..15]" input
+			(at 182.88 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06dfd3ff-daad-445e-a63e-daba6efcec15")
+		)
+		(pin "D[0..7]" bidirectional
+			(at 182.88 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6680cf4b-d97f-4dd6-bc43-d2b09420c56e")
 		)
 		(instances
 			(project "SBC-prototype"
@@ -935,16 +965,6 @@
 			)
 			(uuid "47111bb1-145a-46ef-a4cd-eb0ec5f4f8e8")
 		)
-		(pin "ADDR" input
-			(at 128.27 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "225cf243-71d3-4243-9587-9cf7ecc867bd")
-		)
 		(pin "CLK" input
 			(at 128.27 49.53 180)
 			(effects
@@ -954,6 +974,16 @@
 				(justify left)
 			)
 			(uuid "f8382575-2399-43aa-99bf-4fac4902b396")
+		)
+		(pin "A[0..15]" input
+			(at 128.27 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f75961e-abec-41aa-9222-a10ec5307252")
 		)
 		(instances
 			(project "SBC-prototype"
