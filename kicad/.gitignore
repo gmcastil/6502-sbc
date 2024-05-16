@@ -3,3 +3,4 @@
 # Don't revision control output files from plotting
 SBC-prototype/report.txt
 
+kicad/SBC-prototype/~SBC-prototype.kicad_sch.lck
