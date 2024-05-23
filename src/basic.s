@@ -1,11 +1,9 @@
-; Demonstrate assembling and loading a basic 6502 program
+;; Demonstrate assembling and loading a basic 6502 program
 
   .org	$8000
-
 reset:
   lda	#$ff
   sta	$6002
-
 
 loop:
   lda	#$55
@@ -16,9 +14,23 @@ loop:
 
   jmp	loop
 
+  .org	$9000
+irq:
+  nop
+
+  .org	$a000
+nmi:
+nop
+
+  ;; IRQ handler vector
+  .org	$fffa
+  .word	irq
+
+  ;; Reset vector
   .org	$fffc
   .word reset
 
-; Pad this out to the end of the 32KB
-  .word $0000
+  ;; NMI handler vector
+  .org	$fffe
+  .word nmi
 
